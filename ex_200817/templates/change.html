@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #loginbox {
+                    background-color : #FFFFD3;
+                    width : 250px;
+                    height : 180px;
+                    border: 3px solid #CEF279;
+                    border-radius: 10px;
+                    }
+
+
+
+        #pwbox {
+                    position : relative;
+                    left : 30px;
+                    top: 25px;
+                    }
+
+        #sup {
+                    position : relative;
+                    right : 145px;
+                    top: 55px;
+                    }
+
+
+
+
+    </style>
+</head>
+<body>
+<h1>Modifying member information</h1>
+<div id="loginbox">
+    <form action="/change" method="put">
+        <input id="pwbox" type="password" placeholder="password" name="pw">
+        <input id="sup" type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
